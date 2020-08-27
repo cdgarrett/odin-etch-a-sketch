@@ -1,19 +1,26 @@
 body {
-  background-color: aquamarine;
-  font-family: "Lucida Console", Monaco, monospace;
+  background-color: #9D111E;
+  font-family: 'Pacifico', cursive;
+  color: #E2C878;
 }
 
 h1 {
   text-align: center;
   font-size: 3em;
+  font-style: oblique;
+  text-shadow: 0px 0px 4px rgba(19, 4, 4, 0.75);
+  margin-bottom: 10px;
 }
 
 #grid-ctr {
   height: 700px;
   width: 700px;
   border: 1px solid black;
-  background-color: white;
-  margin: 0 auto;
+  border-radius: 8px;
+  padding: 2px;
+  box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+  background-color: #DEDEDE;
+  margin: 0 auto 40px auto;
   display: grid;
 }
 
